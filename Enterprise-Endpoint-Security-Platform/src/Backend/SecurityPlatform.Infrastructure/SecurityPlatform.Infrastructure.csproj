@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SecurityPlatform.Application\SecurityPlatform.Application.csproj" />
+    <ProjectReference Include="..\SecurityPlatform.Domain\SecurityPlatform.Domain.csproj" />
+    <ProjectReference Include="..\SecurityPlatform.Contracts\SecurityPlatform.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
